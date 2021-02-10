@@ -34,31 +34,33 @@ locationつぶやきは（ブランクであってもよい）から送信され
 * target-中train.csvつぶやきが本当の災害（約あるかどうかだけで、これは意味1）かありません（0）
 
 # ディレクトリ
-.
-├── README.md
-├── __pycache__
-│   └── utils.cpython-39.pyc
-├── config
-│   └── config.yaml
-├── data
-│   ├── sample_submission.csv
-│   ├── test.csv
-│   └── train.csv
-├── features
-│   ├── _features_memo.csv
-│   └── base_text_data.pkl
-├── outputs
-│   └── 2021-02-11
-│       └── 04-29-54
-│           └── tutorialEDA.log
-├── requirements.txt
-├── src
-│   ├── DataCleaning.py
-│   ├── __pycache__
-│   │   └── preprocess.cpython-39.pyc
-│   ├── preprocess.py
-│   └── tutorialEDA.py
-└── utils.py
+<pre>
+.  
+├── README.md  
+├── __pycache__  
+│   └── utils.cpython-39.pyc  
+├── config  
+│   └── config.yaml  
+├── data  
+│   ├── sample_submission.csv  
+│   ├── test.csv  
+│   └── train.csv  
+├── features  
+│   ├── _features_memo.csv  
+│   └── base_text_data.pkl  
+├── outputs  
+│   └── 2021-02-11  
+│       └── 04-29-54  
+│           └── tutorialEDA.log  
+├── requirements.txt  
+├── src  
+│   ├── DataCleaning.py  
+│   ├── __pycache__  
+│   │   └── preprocess.cpython-39.pyc  
+│   ├── preprocess.py  
+│   └── tutorialEDA.py  
+└── utils.py  
+</pre>
 
 # 記録
 
