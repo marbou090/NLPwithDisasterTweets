@@ -19,6 +19,5 @@ parameters:
 
 # trainingに使用する特徴量
 features: [
-  "base_data",
-  "pca",
+  "base_text_data"
 ]

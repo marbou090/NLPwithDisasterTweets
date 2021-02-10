@@ -1,4 +1,5 @@
 # NLP with Disaster Tweets 
+[コンペページ](https://www.kaggle.com/c/nlp-getting-started)  
 Twitterは緊急時に重要なコミュニケーションチャネルになりました。
 スマートフォンの普及により、人々は自分が監視している緊急事態をリアルタイムで発表することができます。このため、より多くの機関がTwitterをプログラムで監視することに関心を持っています（つまり、災害救援組織や報道機関）。
 
@@ -65,10 +66,10 @@ locationつぶやきは（ブランクであってもよい）から送信され
 # 記録
 
 ## ver 1.0
-とりあえず空白で文字を区切ってその単語と予測値を結びつけてそれで可視化したり予測したりするのは愚直だけど最初に思いつくやりかたかなと思う。ただこれだと文脈等々無視してるので、そこからは他の人のノートを参考にしたい。とりあえず自分が書いたやつを作ったあとに他の人のを見始めたい。
+細々と。
 
 ## ver 1.1
-[機械学習実験環境を晒す](https://qiita.com/chizuchizu/items/8261bb831b2eebf1a6af#git%E9%96%A2%E4%BF%82)
+[機械学習実験環境を晒す](https://qiita.com/chizuchizu/items/8261bb831b2eebf1a6af#git%E9%96%A2%E4%BF%82)  
 [Kaggleで使えるFeather形式を利用した特徴量管理法](https://amalog.hateblo.jp/entry/kaggle-feature-management)
 
-ファイル構造見直した。ソールファイルは基本'/src'以下においてる。pyenvの仮想環境'nlpdisaster (set by /Users/katoumaru/Documents/Kaggle/NLPwithDisasterTweets/.python-version)'使ってる。ライブラリ追加したりしたら'requirements.txt'に追加するため'pip freeze > requirements.txt'を忘れずに。
+ファイル構造見直した。ソールファイルは基本`/src`以下においてる。pyenvの仮想環境使ってるよ(`pyenv version`で確認できる)。ライブラリ追加したりしたら`pip freeze > requirements.txt`を忘れずに。
