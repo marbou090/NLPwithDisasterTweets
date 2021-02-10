@@ -6,7 +6,6 @@ from preprocess import base_train,base_test
 import hydra
 
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
-from sklearn import feature_extraction, linear_model, model_selection, preprocessing
 
 # 生成された特徴量を保存するパス
 Feature.dir = "features"
@@ -18,6 +17,13 @@ class BaseTextData(Feature):
     def create_features(self):
         self.train = train["text"]
         create_memo("BaseTextData", "テキストデータのみ")
+
+class BaseData(Feature):
+    def create_features(self):
+        self.data = pd.concat([
+            train, test
+            ]).reset_index(drop=True)
+        create_memo("BaseData", "そのまま")
 
 @hydra.main(config_name="../config/config.yaml")
 def run(cfg):

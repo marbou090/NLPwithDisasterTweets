@@ -19,5 +19,5 @@ parameters:
 
 # trainingに使用する特徴量
 features: [
-  "base_text_data"
+  "base_data"
 ]
