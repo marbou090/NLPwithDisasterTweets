@@ -1,2 +1,6 @@
 /data
 .DS_Store
+__pycache__/
+features/
+outputs/
+.python-version
